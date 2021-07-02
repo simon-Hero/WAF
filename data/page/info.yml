@@ -1,0 +1,51 @@
+login:
+  input_username:
+    -
+      by: xpath
+      locator: "xxx"
+      action: "111"
+  input_password:
+    -
+      by: xpath
+      locator: "xxx"
+      action: "222"
+  click_btn:
+    -
+      by: xpath
+      locator: "xxx"
+      action: js+111mksf
+  get_info:
+    -
+      by: xpath
+      locator: "xx"
+      action: text
+
+"""
+action type:
+1. click  点击
+2. text   提取文字
+3. ""     填写内容
+4. js{}   执行js
+5. contains  包含
+6.
+
+
+
+"""
+
+# verify_password_info
+login2:
+  case_check1:
+    -
+      run:
+        step1:
+          input_username: "111"
+        step2:
+          input_password: "222"
+        step3:
+          click_btn
+        step4:
+          get_info: "333"
+      check:
+        "444"
+

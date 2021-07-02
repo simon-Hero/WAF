@@ -1,0 +1,5 @@
+input_password:
+  -
+    by: xpath
+    locator: "xxx"
+    action: "222"

@@ -1,3 +1,5 @@
 {
-  "WebDriverWaitTime": 10
+  "WebDriverWaitTime": 10,
+  "page_path": "/data/page",
+  "case_path": "/data/testcase"
 }
